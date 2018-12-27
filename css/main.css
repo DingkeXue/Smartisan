@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+/*图片下的第一行文字*/
+h4 {
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+/*产品标题*/
+h5 {
+    margin-left: 25px;
+}
+
+h4,
+h5 {
+    font-weight: 700;
+}
+
+/*图片下的第二行文字*/
+h6 {
+    font-size: 12px;
+    color: #777;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.clear-float {
+    visibility: hidden;
+    content: '';
+    font-size: 0;
+    height: 0;
+    clear: both;
+    display: block;
+}
+
+.wrapper {
+    height: 40px;
+    background: #333;
+    width: 100%;
+}
+/*第一个导航栏*/
+.nav-bar {
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(0,0,0,.1);
+}
+
+.logo {
+    float: left;
+    margin-left: 30px;
+}
+
+.nav-title {
+    background: #333;
+}
+
+/*导航栏中的li标签*/
+.wrapper li {
+    float: left;
+    margin: 6px 20px;
+    text-align: center;
+}
+
+/*导航栏中的a标签文字*/
+.wrapper a {
+    color: #ccc;
+}
+
+.wrapper li,
+.nav-title,
+.nav-aside,
+.nav-bar .nav-text {
+    display: inline-block;
+}
+
+/*导航栏右边*/
+.nav-aside {
+    float: right;
+}
+
+/*导航栏容器*/
+.nav-bar .nav-text {
+    float: left;
+    position: relative;
+    font-size: 14px;
+    margin: 2px auto;
+    width: 90%;
+    text-align: center;
+}
+
+/*副导航栏*/
+.sub-header {
+    position: relative;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 14px;
+    width: 70%;
+}
+
+/*副导航栏li*/
+.nav-desc li {
+    float: left;
+    margin: 0 20px;
+}
+
+/*副标题文字*/
+.nav-desc a {
+    color: #333;
+}
+
+/*副标题搜索*/
+.nav-desc form {
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-desc button {
+    margin-left: -5px;
+}
+
+/*内容区*/
+.content {
+    max-width: 65%;
+    margin: 10px auto;
+}
+
+.slider,
+.advertise,
+.hot-products,
+.list-image {
+    overflow: hidden;
+}
+
+.slider,
+.advertise,
+.hot-products,
+.product-list {
+    margin: 30px auto;
+}
+
+.slider img,
+.adv-item img,
+.hot-item img,
+.item-two img,
+.item-four img,
+.topic-item img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.adv-item,
+.hot-item {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*热卖产品单个*/
+.hot-item {
+    padding: 10px 0;
+    width: 25%;
+}
+
+/*当鼠标经过产品时效果*/
+.hot-item:hover,
+.topic-item:hover,
+.item-two:hover,
+.item-four:hover,
+.item-three:hover,
+.advertise-item:hover,
+.adv-item:hover {
+    border: 1px solid white;
+}
+
+/*热卖标题*/
+.topic .title {
+    margin: 30px auto;
+}
+
+
+/*产品标题*/
+.hot-title {
+    border: 1px solid rgba(0,0,0, .2);
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.price {
+    font-weight: 700;
+    text-align: center;
+    color: #d44d44;
+}
+
+/*手机及配件*/
+.item-two {
+    width: 50%;
+    float: left;
+}
+
+.item-three,
+.item-four,
+.topic-items,
+.contact-detail,
+.service {
+    display: inline-block;
+    text-align: center;
+}
+
+.item-four,
+.topic-items {
+    width: 24%;
+}
+
+/*手机及配件单个*/
+.advertise-item,
+.topic-item,
+.contact {
+    text-align: -webkit-match-parent;
+    display: list-item;
+    width: 100%;
+    padding: 30px 0;
+    height: 429px;
+    margin: 0 25px;
+    overflow: hidden;
+}
+
+/*底部联系*/
+.contact {
+    float: left;
+    width: 14%;
+    margin: 20px 0;
+    height: 200px;
+}
+
+/*联系电话*/
+.service {
+    margin: 50px 0;
+    float: right;
+    padding: 20px 0;
+
+}
+
+.contact-num {
+    font-size: 20px;
+    color: #20c997;
+}
+
+
+
+
+
+
+
