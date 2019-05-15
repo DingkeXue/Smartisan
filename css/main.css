@@ -195,7 +195,7 @@ h6 {
 .item-three:hover,
 .advertise-item:hover,
 .adv-item:hover {
-    border: 1px solid white;
+    translate: scale(1.1);
 }
 
 /*热卖标题*/
