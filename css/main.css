@@ -188,6 +188,16 @@ h6 {
 }
 
 /*当鼠标经过产品时效果*/
+.hot-item,
+.topic-item,
+.item-two,
+.item-four,
+.item-three,
+.advertise-item,
+.adv-item {
+    transition: margin-left .5s;
+}
+
 .hot-item:hover,
 .topic-item:hover,
 .item-two:hover,
@@ -195,7 +205,7 @@ h6 {
 .item-three:hover,
 .advertise-item:hover,
 .adv-item:hover {
-    translate: scale(1.1);
+    margin-left: 20px;
 }
 
 /*热卖标题*/
